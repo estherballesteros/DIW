@@ -1,0 +1,32 @@
+h3,
+h4 {
+  color: red;
+}
+
+.encabezado2 {
+  color: blue;
+}
+
+#ultimoEncabezado {
+  color: green;
+}
+
+h1 {
+  color: rgb(51, 51, 51);
+}
+
+ol {
+  color: violet;
+  font-size: clamp(1.25rem, 1.55rem, 2.125rem);
+}
+
+ul {
+  color: rgb(45, 136, 92);
+  list-style-type: circle;
+}
+
+div p {
+  color: orange;
+  word-spacing: 0.6em;
+  letter-spacing: 0.4rem;
+}
