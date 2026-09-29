@@ -1,0 +1,65 @@
+* {
+  font-family: sans-serif;
+}
+#titular-principal {
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-wrap: balance;
+  color: #e11d48;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+  text-wrap: balance;
+  color: #000000;
+}
+
+.subtítulo-producto {
+  color: #71717a;
+  font-size: 1.1rem;
+}
+
+p {
+  line-height: 1.6;
+  text-wrap: pretty;
+  color: #27272a;
+}
+
+article p {
+  background-color: #09090b;
+  color: #ffffff;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.logo-marca {
+  font-weight: 700;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+}
+.boton-droplist {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+a:hover {
+  color: #e11d48;
+}
+
+ul {
+  list-style: square;
+}
+
+ol {
+  list-style: lower-alpha;
+}
+
+dt {
+  font-weight: 600;
+  color: #e11d48;
+}
