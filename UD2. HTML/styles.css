@@ -4,7 +4,7 @@
 #titular-principal {
   font-size: clamp(2.2rem, 5vw, 4.2rem);
   text-align: center;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   text-wrap: balance;
   color: #e11d48;
 }
