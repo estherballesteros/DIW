@@ -1,0 +1,77 @@
+/*modificamos el comportamiento por defecto de esta etiqueta en linea
+esto hace que se comporte como un bloque, haciendo asi que ocupe todo el ancho de la pagina*/
+a {
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  height: 120px;
+  background-color: gold;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 150px;
+  background-color: lavender;
+}
+
+.pequena {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+
+.mediana {
+  width: 200px;
+  height: 100px;
+  background-color: gold;
+}
+
+.grande {
+  width: 100%;
+  height: 80px;
+  background-color: mediumseagreen;
+}
+
+button {
+  padding: 10px;
+  border-radius: 13px;
+  border: 0px;
+  background-color: rgb(255, 254, 186);
+}
+button:hover {
+  background-color: rgb(242, 255, 122);
+  transition: ease-in-out;
+}
+
+.boton {
+  display: inline-block;
+  background: rebeccapurple;
+  color: white;
+  padding: 12px 24px;
+}
+
+.tarjeta {
+  padding: 20px;
+  background: lavender;
+}
+
+.perfil {
+  width: 260px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin: 0 auto; /*va a centrar el elemento, dejando el mismo espacio tanto del margen derecho como del izquierdo*/
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border: 3px solid rebeccapurple;
+  border-radius: 50%;
+  background-color: rgb(162, 218, 255);
+}
+h2 {
+  border-bottom: 2px dashed;
+}
